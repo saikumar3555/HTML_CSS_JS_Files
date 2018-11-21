@@ -1,0 +1,61 @@
+<head>
+
+    
+    
+    <style>
+        body{
+            background-image: url("img/image3.jpeg");
+        }
+        .dropdown-button{
+            background-image: url("27_CSS_Mini_Project/images/article_laptop.jpg");
+            display: block;
+            border: none;
+            font-size: 30px;
+            padding: 10px 51px;
+            box-shadow: 0 0 15px black;
+            box-shadow: 0 0 15px red;
+
+        }
+        .dropdown-list{
+            background-image: url("27_CSS_Mini_Project/images/gallery_laptop_2.jpeg");
+            width: 205px;
+            text-align: center;
+            display: none;
+            box-shadow: 0 0 15px red;
+            background-color: #5ec95a;
+
+        }
+        .dropdown-list a{
+            display: block;
+      text-decoration: none;
+            padding: 10px;
+            width: 180pxpx;
+            margin: 0;
+            background-color: #00aeef;
+            margin: 3px;
+
+
+        }
+        .dropdown:hover .dropdown-list{
+            display: block;
+        }
+        .dropdown-list a:hover{
+            background-color: lightgreen;
+            width: 180px;
+            box-shadow: 0 0 10px black;
+        }
+    </style>
+</head>
+<body>
+
+<div class="dropdown">
+<button class="dropdown-button">Courses <i class="fa fa-fa-arrow-circle-o-down"></i></button>
+    <div class="dropdown-list">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JS</a>
+        <a href="#">JQUERY</a>
+        <a href="#">BOOTSTRAP</a>
+    </div>
+</div>
+</body>

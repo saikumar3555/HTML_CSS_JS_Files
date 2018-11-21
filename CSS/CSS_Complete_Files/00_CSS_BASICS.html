@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Basics</title>
+    <style>
+        input[type='text']{
+            background-color: lightgreen;
+            color: red;
+        }
+        input:focus{
+            background-color: #d3b68a;
+            color: white;
+        }
+        input[type='submit']{
+            background-color: forestgreen;
+            color: white;
+        }
+        input[type='submit']:hover{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <label>UserName</label>
+        <input type="text">
+        <br>
+        <label>Password</label>
+        <input type="password">
+        <br>
+            <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
