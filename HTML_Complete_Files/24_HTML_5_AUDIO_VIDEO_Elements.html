@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Audio & Video</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div{
+            background-image: url("img/background.jpg");
+            text-align: center;
+            width: 400px;
+            padding: 10px;
+            border: 5px solid white;
+            box-shadow: 0 0 15px black;
+            border-radius: 50px;
+        }
+        video{
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Audio Element -->
+    <h2>Audio Player</h2>
+    <div>
+        <audio controls>
+        <source src="media/Kalimba.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+
+    <!-- Video Element -->
+    <h2>Video player</h2>
+    <div>
+        <video controls>
+            <source src="media/Wildlife.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</body>
+</html>
